@@ -1,0 +1,18 @@
+{
+  "name": "jp-industry-codes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JPX data_j.xls から業種コード別証券コード JSON を生成し gh-pages で公開する",
+  "type": "module",
+  "engines": {
+    "node": "24.13.1"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
