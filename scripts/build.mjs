@@ -177,18 +177,20 @@ async function main() {
   const idx33 = findColumnIndex(headerRow, ["33業種コード"]);
   if (idxCode < 0) {
     throw new Error(
-      '列「証券コード」または「コード」が見つかりません。ヘッダ: ' +
+      "列「証券コード」または「コード」が見つかりません。ヘッダ: " +
         JSON.stringify(headerRow),
     );
   }
   if (idx17 < 0) {
     throw new Error(
-      '列「17業種コード」が見つかりません。ヘッダ: ' + JSON.stringify(headerRow),
+      "列「17業種コード」が見つかりません。ヘッダ: " +
+        JSON.stringify(headerRow),
     );
   }
   if (idx33 < 0) {
     throw new Error(
-      '列「33業種コード」が見つかりません。ヘッダ: ' + JSON.stringify(headerRow),
+      "列「33業種コード」が見つかりません。ヘッダ: " +
+        JSON.stringify(headerRow),
     );
   }
 
